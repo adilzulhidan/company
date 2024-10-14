@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .jumbotron {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 100px 25px;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+        }
+        .team-member {
+            text-align: center;
+        }
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ZulhidanCorp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1>Welcome to Our Company</h1>
+        <p>Your trusted partner in success</p>
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+    </div>
+
+    <!-- About Us -->
+    <section id="about" class="container">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">ZulhidanCorp is a leading company focused on developing and implementing Internet of Things (IoT) solutions for various industrial sectors. Founded in 2020, we are committed to delivering advanced technologies that connect devices, systems, and people to create a more efficient, intelligent, and sustainable ecosystem.</p>
+        <p class="text-center">Vision
+            To be a leader in IoT innovation that connects the world in a smarter, more efficient, and more sustainable way.
+            
+           </p>
+        <p class="text-center"> Mission
+            Technology Innovation: Developing cutting-edge IoT solutions to meet customer needs and support industry growth.
+            Improving Quality of Life: Creating technology that makes everyday life easier and increases productivity.
+            Sustainability: Implementing solutions that support environmental sustainability through energy savings and waste reduction.
+            Education and Awareness: Increasing public knowledge about IoT through training programs and seminars.
+            Strategic Partnerships: Building partnerships with other companies and government agencies to expand the adoption of IoT technology.</p>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="container mt-5">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-chart-line fa-3x"></i>
+                <h4>Smart Home Solutions</h4>
+                <p>Developing smart devices for the home, including security, lighting and temperature control systems that can be accessed via a mobile app.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <h4>IoT in Agriculture</h4>
+                <p>Soil and weather monitoring solutions to improve agricultural yields and water use efficiency.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-bullhorn fa-3x"></i>
+                <h4>Smart City</h4>
+                <p>Development of connected city infrastructure to improve public services, safety, and energy efficiency.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-bullhorn fa-3x"></i>
+                <h4>Connected Healt</h4>
+                <p>Medical devices that enable remote health monitoring, providing real-time data to doctors and patients.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-bullhorn fa-3x"></i>
+                <h4>Smart Transportation</h4>
+                <p>A traffic management system that uses IoT data to optimize traffic flow and reduce congestion.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+   <!-- Team -->
+<section id="team" class="container mt-5">
+    <h2 class="text-center">Our Team</h2>
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-4 d-flex flex-column align-items-center team-member">
+            <div class="d-flex justify-content-center">
+                <img src="IMG_20230305_134451_178.jpg" alt="Team Member 1" class="mb-3" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
+            </div>
+            <h4 class="text-center">Adil Zulhidan</h4>
+            <p class="text-center">CEO</p>
+        </div>
+        <!-- Tambahkan anggota tim lain di sini jika perlu -->
+    </div>
+</section>
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Us</h2>
+        <form class="mt-4">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
